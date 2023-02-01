@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMV.WebApi", "JMV.WebApi\JMV.WebApi.csproj", "{D7788A9A-2893-4DAF-A50E-B6080569C31C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMV.WebApi", "JMV.WebApi\JMV.WebApi.csproj", "{D7788A9A-2893-4DAF-A50E-B6080569C31C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMV.Manager", "JMV.Manager\JMV.Manager.csproj", "{90EF93EF-4220-4F5C-B547-99EBECB9CFAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMV.Data", "JMV.Data\JMV.Data.csproj", "{9B301FD7-D324-4AEC-A270-307CBF8ABD5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMV.Data", "JMV.Data\JMV.Data.csproj", "{9B301FD7-D324-4AEC-A270-307CBF8ABD5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMV.Core", "JMV.Core\JMV.Core.csproj", "{8A35CE84-8DBE-4EFA-BD59-7D98D01FAB03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMV.Core", "JMV.Core\JMV.Core.csproj", "{8A35CE84-8DBE-4EFA-BD59-7D98D01FAB03}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD84D9C4-159A-4AB9-9225-1DAD6C6CFF9B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMV.Service", "JMV.Service\JMV.Service.csproj", "{878D2715-58BA-42F7-8713-6C014E8DF55C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +26,6 @@ Global
 		{D7788A9A-2893-4DAF-A50E-B6080569C31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7788A9A-2893-4DAF-A50E-B6080569C31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7788A9A-2893-4DAF-A50E-B6080569C31C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{90EF93EF-4220-4F5C-B547-99EBECB9CFAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90EF93EF-4220-4F5C-B547-99EBECB9CFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90EF93EF-4220-4F5C-B547-99EBECB9CFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90EF93EF-4220-4F5C-B547-99EBECB9CFAB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9B301FD7-D324-4AEC-A270-307CBF8ABD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B301FD7-D324-4AEC-A270-307CBF8ABD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B301FD7-D324-4AEC-A270-307CBF8ABD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +34,10 @@ Global
 		{8A35CE84-8DBE-4EFA-BD59-7D98D01FAB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A35CE84-8DBE-4EFA-BD59-7D98D01FAB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A35CE84-8DBE-4EFA-BD59-7D98D01FAB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878D2715-58BA-42F7-8713-6C014E8DF55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878D2715-58BA-42F7-8713-6C014E8DF55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878D2715-58BA-42F7-8713-6C014E8DF55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878D2715-58BA-42F7-8713-6C014E8DF55C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

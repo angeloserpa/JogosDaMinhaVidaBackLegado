@@ -1,4 +1,4 @@
-﻿namespace JMV.Manager
+﻿namespace JMV.Service
 {
     public class Class1
     {
