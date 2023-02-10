@@ -1,6 +1,8 @@
 using JMV.Data.Context;
 using JMV.Data.Interfaces;
 using JMV.Data.Repository;
+using JMV.Service.Interfaces;
+using JMV.Service.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +13,7 @@ builder.Services.AddDbContextPool<JmvContext>(options =>
     options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<ITimesRepository, TimesRepository>();
+builder.Services.AddScoped<ITimeService, TimesService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -45,7 +45,7 @@ namespace JMV.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Campeonatos");
+                    b.ToTable("Campeonatos", (string)null);
                 });
 
             modelBuilder.Entity("JMV.Core.Domain.Estadios", b =>
@@ -78,7 +78,7 @@ namespace JMV.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Estadios");
+                    b.ToTable("Estadios", (string)null);
                 });
 
             modelBuilder.Entity("JMV.Core.Domain.Modalidades", b =>
@@ -95,7 +95,7 @@ namespace JMV.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Modalidades");
+                    b.ToTable("Modalidades", (string)null);
                 });
 
             modelBuilder.Entity("JMV.Core.Domain.Partidas", b =>
@@ -124,7 +124,7 @@ namespace JMV.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Partidas");
+                    b.ToTable("Partidas", (string)null);
                 });
 
             modelBuilder.Entity("JMV.Core.Domain.Times", b =>
@@ -160,7 +160,7 @@ namespace JMV.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Times");
+                    b.ToTable("Times", (string)null);
                 });
 
             modelBuilder.Entity("JMV.Core.Domain.Tipos", b =>
@@ -177,7 +177,7 @@ namespace JMV.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tipos");
+                    b.ToTable("Tipos", (string)null);
                 });
 #pragma warning restore 612, 618
         }

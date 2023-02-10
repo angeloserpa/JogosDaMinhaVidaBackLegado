@@ -25,10 +25,7 @@
   </ItemGroup>
   <ItemGroup>
 	  <ProjectReference Include="..\JMV.Data\JMV.Data.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
+	  <ProjectReference Include="..\JMV.Service\JMV.Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>
